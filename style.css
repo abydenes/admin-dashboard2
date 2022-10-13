@@ -146,14 +146,14 @@ body {
 
 .main-container {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 5fr 2.3fr;
   background-color: var(--accent-color);
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 32px;
+  padding: 32px 0px 32px 32px;
   gap: 32px;
 }
 
@@ -172,6 +172,28 @@ body {
 }
 
 .ann-trending {
-  outline: 2px solid red;
   grid-column: 2 / -1;
+  padding: 32px;
+}
+
+.ann {
+  background-color: white;
+  padding: 32px;
+  border-radius: 10px;
+  display: grid;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.ann-card {
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.trending-card {
+  background-color: white;
+  padding: 32px;
+  border-radius: 10px;
+  display: grid;
+  gap: 32px;
 }
